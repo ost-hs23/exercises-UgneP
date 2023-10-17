@@ -1,7 +1,11 @@
 ---
-title: "Hello, Penguins!"
+title: "Hello, Penguin!"
+author: Ugne
+date: 2023-10-17
 format: html
 editor: visual
+execute:
+  echo: true
 ---
 
 ## Data
@@ -11,6 +15,7 @@ For this analysis we'll use the penguins dataset from the palmerpenguins R packa
 ```{r}
 #| label: load-packages
 #| message: false
+#| echo: false
 
 library(tidyverse)
 library(ggthemes)
@@ -51,3 +56,12 @@ penguins |>
   select(species, island, bill_length_mm, bill_depth_mm) |>
   gt()
 ```
+
+## Python trial
+
+Visualization of a DataFrame.
+
+
+```
+
+

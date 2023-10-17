@@ -1,0 +1,27 @@
+---
+title: "My first document!"
+author: Ugne
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+date-modified: 2023-10-16
+format: html
+editor: visual
+toc: true
+toc-depth: 2
+theme: sketchy
+execute:
+  echo: true
+---
+
+
+## Tasks, I liked
+
+-   generate nice figures
+
+## Challenging tasks
+
+-   re-run experiments/code
+
+
+## I want to learn
+
+-   how to structure research
