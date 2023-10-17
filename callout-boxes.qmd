@@ -1,6 +1,6 @@
 ---
 title: "Callout boxes"
-format: html
+format: pdf
 editor: visual
 ---
 
@@ -9,11 +9,35 @@ Note that there are five types of callouts, including: `note`, `warning`, `impor
 :::
 
 ::: callout-tip
+## Tip as a title
+
 This should be an example of a callout with a caption. So add a caption!
 :::
 
-::: callout-caution
+::: {.callout-caution collapse="true"}
 ## Expand To Learn About Collapse
 
 This should be an example of a "folded" caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default. Try adding these to attributes.
+:::
+
+
+::: callout-note
+### New little title
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-tip
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: {.callout-warning collapse="true"}
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-caution
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-important
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
 :::

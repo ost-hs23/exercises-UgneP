@@ -1,12 +1,43 @@
 ---
+author: Ugne
+header: New file, exercise
+toc: true
 format: html
 editor: source
+  markdown: 
+    wrap: 72
 ---
 
-1.  Add a title and author to the YAML header. Add a table of contents as well.
+## Section about quarto
 
-2.  Add two major sections with level two headers. Add a subsection to one of your major sections.
+![First image](images/quarto-logo.png) [source](images/quarto-logo.png)
 
-3.  Add an image link to a web image you have chosen.
+## Section about dogs
 
-4.  Use any markdown syntax that you can recall from the slides or refresh your memory from <https://quarto.org/docs/authoring/markdown-basics.html>.
+### Dog number 1
+
+![a dog](https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*)
+
+[source dog](https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*)
+
+![one more dog](https://kb.rspca.org.au/wp-content/uploads/2018/11/golder-retriever-puppy.jpeg)
+
+::: callout-note
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-tip
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-warning
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-caution
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-important
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
