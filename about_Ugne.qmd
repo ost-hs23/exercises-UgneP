@@ -1,0 +1,30 @@
+---
+title: "Ugne Potthoff"
+output: html_document
+---
+
+Welcome to my website! I am a passionate problem solver, willing to walk an extra mile for a purpose.
+
+<a id="figure1"></a>
+<img src="images/Bild Ugne Potthoff.jpg" alt="Ugne" width="250">
+
+Ugne Potthoff is a PhD candidate at ETH Zurich. Her research interests focus on analytics and machine learning for heat pump optimization. 
+
+Ugne holds a Master's degree (M.Sc.) in Production Engineering from RWTH Aachen and a Master's degree (M.Sc.) in Mechanical Engineering from Tsinghua University. During her research stay at ETH Zürich, Ugne concentrated on the application of AI and Computer Vision for the laser-based powder bed fusion process monitoring. Beyond academia, Ugne has technical expertise in working on various IoT-focused projects and gained practical insights as a manufacturing engineer for automotive electronics during her time at Hella.
+
+
+<div id="contact" style="background-color: #EAF2F8; padding: 20px; border-radius: 5px;">
+
+# Contact
+If you have any questions, feedback, or just want to say hello, please don't hesitate to contact me. I'd love to hear from you!
+
+To get in touch with me, please send an email to `ugne.potthoff@mtec.ethz.ch`.
+
+You can also find me on:
+- <a href="https://im.ethz.ch/" style="color: #3498DB;">ETH Zürich</a>
+- <a href="https://www.linkedin.com/in/ugne-potthoff" style="color: #3498DB;">LinkedIn</a>
+- <a href="https://github.com/UgneP" style="color: #3498DB;">GitHub</a>
+
+- <a href="https://orcid.org/0009-0007-8495-2971" style="color: #3498DB;">ORCiD</a>
+
+</div>
