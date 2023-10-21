@@ -15,9 +15,26 @@ library(palmerpenguins)
 
 1.  Create a 2 row x 2 column table, populate with a column for restaurant + column for cuisine. Then, cross reference it from text.
 
-2.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
+### Table: Restaurant and Cuisine
+<a id="table1"></a>
 
-3.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
+    | Restaurant | Cuisine |
+    |------------|---------|
+    |            |         |
+    |            |         |
+
+The data presented in [Table: Restaurant and Cuisine](#table1) indicates a variety of cuisines available in our sample set.
+    
+
+3.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
+
+
+
+![Quarto Logo](images/quarto-logo.png)<a id="figure1"></a>
+
+The logo shown in [Figure: Quarto Logo](#figure1) represents the brand identity of Quarto.
+
+4.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
 
 ```{r}
 #| warning: false
