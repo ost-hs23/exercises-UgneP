@@ -1,8 +1,18 @@
 ---
 title: "Hello, Penguins!"
-format: html
+author: Ugne
+format: 
+  revealjs: 
+    logo: images/Quarto-logo.png
+    footer: "website"
+    chalkboard: true
+  
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
+
+# Introduction hello {.notes}
 
 ## Data
 
@@ -25,8 +35,10 @@ The figure below is a scatterplot of species of penguins.
 ```{r}
 #| label: bill-dims-species
 #| warning: false
-#| fig-width: 5
+#| fig-width: 10
 #| fig-asp: 0.618
+#| echo: true
+#| output-location: slide
 
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 
@@ -41,6 +53,8 @@ ggplot(data = penguins,
 
 ## Penguins
 
+### Very small penguins
+
 The table below shows the first 10 penguins from the dataset.
 
 ```{r}
@@ -51,3 +65,11 @@ penguins |>
   select(species, island, bill_length_mm, bill_depth_mm) |>
   gt()
 ```
+
+## Incremental list
+
+::: incremental
+-   one
+-   two
+-   three
+:::

@@ -1,9 +1,19 @@
 ---
 title: "Ugne Potthoff"
 output: html_document
+about:
+  template: jolla
+  image: images/Bild Ugne Potthoff.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
 
-Welcome to my website! I am a passionate problem solver, willing to walk an extra mile for a purpose.
+Welcome to my website! I am a passionate problem solver, willing to walk an extra mile.
 
 <a id="figure1"></a>
 <img src="images/Bild Ugne Potthoff.jpg" alt="Ugne" width="250">
